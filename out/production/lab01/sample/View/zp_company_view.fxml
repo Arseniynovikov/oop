@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.zp_companyController">
+    <children>
+        <Label layoutX="49.0" layoutY="35.0" prefHeight="43.0" prefWidth="251.0" text="Зарплатный проект компании">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Label fx:id="company_nameLabel" layoutX="312.0" layoutY="35.0" prefHeight="43.0" prefWidth="251.0" text="Label">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Button fx:id="okButton" layoutX="192.0" layoutY="239.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="216.0" text="Готово" />
+        <TextField fx:id="countField" layoutX="324.0" layoutY="153.0" promptText="Ваша зп" />
+        <Button fx:id="returnButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="30.0" text="&lt;" />
+      <ComboBox fx:id="worker_ComboBox" layoutX="66.0" layoutY="153.0" prefHeight="25.0" prefWidth="216.0" promptText="Выберите работника" />
+    </children>
+
+</AnchorPane>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.administrator_viewController">
+    <children>
+        <MenuBar layoutY="7.0" prefHeight="26.0" prefWidth="600.0">
+            <menus>
+                <Menu mnemonicParsing="false">
+                    <items>
+                        <MenuItem fx:id="exit" mnemonicParsing="false" text="Выйти" />
+                    </items>
+                    <graphic>
+                        <Label fx:id="nameLable" prefHeight="17.0" prefWidth="214.0" />
+                    </graphic>
+                </Menu>
+            </menus>
+        </MenuBar>
+        <ListView fx:id="showList" layoutY="33.0" prefHeight="332.0" prefWidth="394.0" />
+        <ComboBox fx:id="chComboBox" layoutX="14.0" layoutY="365.0" prefHeight="26.0" prefWidth="370.0" promptText="Выбор" />
+        <Button fx:id="cancellation" layoutX="452.0" layoutY="103.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="78.0" text="Отмена" />
+    </children>
+</AnchorPane>
